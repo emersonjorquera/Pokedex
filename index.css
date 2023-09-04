@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #DF2935;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Tektur', cursive;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 20px;
+}
+
+#titulo{
+
+  width: 30%;
+  height: auto;
+  margin: 2% 50px;
+  background-color: #3772FF;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 50px;
+}
+
+#pantalla {
+  width: 22%;
+  height: auto;
+  background-color: #E6E8E6;
+  margin: 5% 100px;
+  padding: 15px;
+  border-radius: 6px;
+  }
+
+#pokemon{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+} 
+
+#container {
+  position: absolute;
+  top: 40%;
+  left: 700px;
+  width: 15%;
+  height: 250px;
+  background-color: #35760A;
+  padding: 15px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 6px;
+}
+
+.img-container{
+  margin: 5% 5%;
+  width: 100px;
+  background-color: #D4D2DA;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 52px;
+}
+
+p{
+  margin: 5% 5%;
+  font-size: 30px;
+  font-family: 'Tektur', cursive;
+}
+
+#img{
+  position: absolute;
+    top: 6px;
+    left: 1100px;
+    width: 180px;
+    height: 180px;
+    
+}
+
+#img1{
+  position: absolute;
+    top: 350px;
+    left: 1000px;
+    width: 180px;
+    height: 180px;
+}
+
+#img2{
+  position: absolute;
+  top: 300px;
+  left: 580px;
+    
+}
+
+#botonNegro{
+  width: 60px;
+  height: 60px;
+}
+
+#img3{
+  position: absolute;
+  top: 400px;
+  left: 580px;
+}
+
+#pantallita{
+  width: 30%;
+  height: 20%;
+  background-color: #191917;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 50px;
+  position: absolute;
+  top: 50px;
+  left: 580px;
+}
+
+.run-text{
+  color: #363532;
+  text-align: center;
+  font-size: 90px;
+  margin: auto;
+  font-family: 'Tektur', cursive;
+}

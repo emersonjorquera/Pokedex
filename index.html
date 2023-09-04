@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Descubre tu Poké Pokédex </title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Tektur:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="titulo">
+    <h1> Pokédex </h1>
+    </div>
+
+    <div id="pantalla">
+    <h2>¡Elige un numero al azar! </h2>
+
+      <label id="pokemon" for="nombre"> N° de Pokedex de tu Pokémon</label> <br><br>
+
+      <input type="text" id="nombre" name="nombre" required> <br><br>
+      
+      <input onclick="llamarPokemon()" id="boton" type="button" value="Enviar" required>
+    </div>
+      
+        <div id="container"></div>
+
+        <div id="img">
+          <img src="rotom.jpg" alt="">
+        </div>
+        <div id="img1">
+          <img src="flechas.jpg" alt="">
+        </div>
+        <div id="img2">
+          <img id="botonNegro" src="boton1.jpg.png" alt="">
+        </div>
+        <div id="img3">
+          <img id="botonNegro" src="boton1.jpg.png" alt="">
+        </div>
+        <div id="pantallita"></div>
+
+        <script src="./index.js"></script>
+    
+  </body>
+</html>
