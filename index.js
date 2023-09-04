@@ -9,7 +9,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${user}/`)
 .then((data) => {
 
   container.innerHTML = "";
-  pantallaGris.innerHTML =";"
+  pantallaGris.innerHTML ="";
 
   const pokedex = data.id;
   const pokemon = data.name;
