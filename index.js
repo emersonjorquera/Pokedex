@@ -4,7 +4,7 @@ const pantallaGris = document.getElementById("pantallita");
 
 function llamarPokemon(){
 const user = document.getElementById("nombre").value;  //El valor del user será el valor entragado en el label
-fetch(`https://pokeapi.co/api/v2/pokemon/${user}/`)   //El fetcha ára poder usar la API
+fetch(`https://pokeapi.co/api/v2/pokemon/${user}/`)   
 .then((response) => response.json())
 .then((data) => {
 
